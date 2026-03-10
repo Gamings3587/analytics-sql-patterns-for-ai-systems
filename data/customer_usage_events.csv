@@ -1,1 +1,11 @@
-
+customer_id,event_timestamp,event_type,service_type,usage_amount,revenue_amount,region
+C001,2025-01-01 09:10:00,stream,data,2.5,3.2,Dubai
+C002,2025-01-01 10:22:00,recharge,mobile,0,20,AbuDhabi
+C003,2025-01-01 11:05:00,call,mobile,15,4.5,Dubai
+C001,2025-01-02 14:30:00,stream,data,3.1,3.8,Dubai
+C004,2025-01-02 15:10:00,login,broadband,0.5,1.2,AbuDhabi
+C005,2025-01-02 17:45:00,stream,data,4.0,5.0,Dubai
+C002,2025-01-03 08:20:00,call,mobile,10,3.2,AbuDhabi
+C003,2025-01-03 12:40:00,stream,data,2.2,2.9,Dubai
+C001,2025-01-04 19:00:00,recharge,mobile,0,25,Dubai
+C005,2025-01-04 20:10:00,call,mobile,18,6.5,Dubai
