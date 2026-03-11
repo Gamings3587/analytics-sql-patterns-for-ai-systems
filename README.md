@@ -78,6 +78,61 @@ Included datasets:
 
 These datasets are generic enough to apply across telecom, subscription-based platforms, and enterprise analytics workflows.
 
+### Table Schemas
+
+#### telecom_kpi_daily
+
+| column | description |
+|---|---|
+| event_date | KPI observation date |
+| region | geography or market |
+| service_type | mobile, broadband, 5G, etc. |
+| site_id | operational entity identifier |
+| active_users | active user count |
+| dropped_calls | dropped call volume |
+| throughput_mbps | throughput measure |
+| latency_ms | latency metric |
+| availability_pct | service availability |
+| ticket_count | associated support volume |
+
+#### customer_usage_events
+
+| column | description |
+|---|---|
+| customer_id | unique customer identifier |
+| event_timestamp | activity timestamp |
+| event_type | usage activity type |
+| service_type | service category |
+| usage_amount | usage quantity |
+| revenue_amount | billed amount |
+| region | geography |
+
+#### customer_subscriptions
+
+| column | description |
+|---|---|
+| customer_id | unique customer identifier |
+| subscription_id | subscription record |
+| product_name | package or plan |
+| activation_date | subscription start |
+| renewal_date | renewal reference |
+| status | lifecycle state |
+| monthly_fee | recurring fee |
+| region | geography |
+
+#### service_tickets
+
+| column | description |
+|---|---|
+| ticket_id | ticket identifier |
+| customer_id | associated customer |
+| opened_at | ticket open timestamp |
+| closed_at | ticket close timestamp |
+| issue_category | issue classification |
+| priority | severity level |
+| resolution_status | ticket state |
+| region | geography |
+
 ---
 
 ## How to Run (DuckDB)
