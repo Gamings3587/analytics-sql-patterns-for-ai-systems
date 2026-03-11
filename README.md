@@ -65,6 +65,51 @@ Reusable approaches for resolving duplicates, tracking latest states, and mainta
 
 ---
 
+## SQL Pattern Map
+
+| file | what it demonstrates | typical use |
+|---|---|---|
+| `01_window_analytics_patterns.sql` | ranking, lag/lead, rolling averages, running totals | KPI trend analysis, top-N analysis |
+| `02_kpi_monitoring_patterns.sql` | aggregations, threshold flags, service summaries | operational monitoring, SLA-style reporting |
+| `03_customer_behavior_patterns.sql` | segmentation, heavy-user logic, revenue ranking | customer intelligence, monetization analysis |
+| `04_retention_and_cohort_patterns.sql` | cohort assignment, activity tracking | retention and lifecycle analysis |
+| `05_anomaly_detection_patterns.sql` | rolling baselines, deviation alerts | anomaly monitoring, proactive operations |
+| `06_deduplication_and_latest_record_patterns.sql` | latest-state extraction, duplicate handling | clean reporting layers, operational views |
+
+### Module Notes
+
+#### `01_window_analytics_patterns.sql`
+**Input:** event-level usage and KPI records  
+**Logic:** partitions, ordering, temporal comparison  
+**Output:** ranked entities, prior-period deltas, rolling metrics
+
+#### `02_kpi_monitoring_patterns.sql`
+**Input:** daily KPI records  
+**Logic:** aggregation, threshold evaluation, service-level summarization  
+**Output:** KPI summaries and monitoring flags
+
+#### `03_customer_behavior_patterns.sql`
+**Input:** customer usage events and revenue activity  
+**Logic:** grouping, segmentation, ranking  
+**Output:** heavy-user views, multi-service behavior, top customers
+
+#### `04_retention_and_cohort_patterns.sql`
+**Input:** subscription lifecycle data and usage activity  
+**Logic:** cohort assignment and activity tracking by month  
+**Output:** cohort-based retention views
+
+#### `05_anomaly_detection_patterns.sql`
+**Input:** KPI time-series data  
+**Logic:** rolling baseline comparison and deviation checks  
+**Output:** anomaly candidates and service alerts
+
+#### `06_deduplication_and_latest_record_patterns.sql`
+**Input:** subscription and ticket records  
+**Logic:** row-number based latest-state extraction and duplicate detection  
+**Output:** clean latest-record views and duplicate identification
+
+---
+
 ## Datasets
 
 The repository uses compact synthetic datasets designed to reflect realistic analytical use cases while remaining lightweight and portable.
@@ -77,7 +122,7 @@ Included datasets:
 - `service_tickets.csv` — operational issue tracking records  
 
 These datasets are generic enough to apply across telecom, subscription-based platforms, and enterprise analytics workflows.
-
+should be within 
 ### Table Schemas
 
 #### telecom_kpi_daily
