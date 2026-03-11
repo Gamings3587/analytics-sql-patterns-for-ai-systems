@@ -183,6 +183,7 @@ should be within
 ## How to Run (DuckDB)
 
 The repository can be executed quickly using DuckDB.
+The examples use DuckDB and follow PostgreSQL-compatible analytical SQL syntax for portability across modern data platforms.
 
 ### 1. Install DuckDB (if needed)
 
